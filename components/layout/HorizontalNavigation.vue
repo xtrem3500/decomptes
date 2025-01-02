@@ -4,7 +4,7 @@
       v-for="link in links"
       :key="link.to"
       :to="link.to"
-      class="flex items-center px-3 py-2 text-sm font-medium text-paypal-gray hover:text-paypal-blue"
+      class="flex items-center px-3 py-2 text-sm font-medium text-white hover:text-paypal-lightBlue"
     >
       <Icon
         :name="link.icon"
